@@ -1,4 +1,3 @@
-
 # CI/CD Final Project — IBM Coursera
 
 [![CI Workflow](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/ci-cd-final-project/workflow.yml?branch=main&label=CI%20Build&logo=github)](https://github.com/YOUR_USERNAME/ci-cd-final-project/actions)
@@ -91,3 +90,10 @@ Both tasks use Tekton **workspaces** (shared PersistentVolumeClaims) and the `no
 * Migrate from deprecated `nosetests` to `pytest`
 * Add a security scanning step (`bandit`) to the GitHub Actions workflow
 * Add OpenShift deployment manifests (`Deployment`, `Service`, `Route`)
+
+
+## Learning behind this project
+
+This project is the capstone for a CI/CD course I took. The notes and concepts I worked through while building this are documented separately in my learning repo:
+
+→ [cicd-learning-notes](https://github.com/aklimairen/cicd-learning-notes) — covers CI/CD basics, GitHub Actions, Tekton, and OpenShift
